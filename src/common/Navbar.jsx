@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [navbarStyles, setNavbarStyles] = useState({
+  const [navbarStyles] = useState({
     color: "#2d3436",
 
     top: "0",
