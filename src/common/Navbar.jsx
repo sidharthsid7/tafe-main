@@ -10,7 +10,7 @@ const Navbar = () => {
     width: "100%",
     zIndex: "1000",
   });
-  const loggedIn = window.localStorage.getItem("isLoggedInTafe");
+
   const handleLogout = () => {
     localStorage.removeItem("isLoggedInTafe");
     navigate("/login");
